@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.container {
+  margin: 0 15px;
+  padding: 5px;
+}
+
+.nav {
+  margin: 2em auto;
+  display: inline-block;
+}
+
+.nav .btn {
+  margin: 0 3px;
+  border: 1px solid #ececec;
+  border-radius: 3px;
+  color: #ffffff;
+  outline: none;
+}
+
+.nav .btn-highchart {
+  background: #508CC8;
+}
+
+.nav .btn-highchart:focus, .nav .btn-highchart:hover, .nav .btn-highchart.active {
+  background: #3F51B5;
+}
